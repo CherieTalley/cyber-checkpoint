@@ -1,0 +1,20 @@
+#Identify Service running on port
+import socket
+
+# Function to identify service running on a port
+def get_service_name(ip, port):
+    try:
+        # Connect to the server
+        service_name = socket.getservbyport(port)
+        return service_name
+    except socket.error:
+        # If the port is not known, return a message
+        return "Unknown Service"
+
+# Example usage with an open port
+ip_address = "191.161.1.1"  # Replace with your target IP
+open_ports = [22, 80, 443]  # Replace with your open ports
+
+for port in open_ports:
+    service = get_service_name(ip_address, port)
+    print(f"Port {port} is running {service}")
