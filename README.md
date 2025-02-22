@@ -1,3 +1,4 @@
+
 # cyber-checkpoint
 import socket
 import scapy.all as scapy
@@ -42,3 +43,29 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
+
+
+
+
+
+
+
+![code1](https://github.com/user-attachments/assets/6700fb10-96ff-4339-8f9a-4630f62448b6)
+
+
+
+
+
+![code2](https://github.com/user-attachments/assets/27e424e1-9b3f-4e47-9219-48e6854db5e5)
+
+
+
+
+
+
+
+
+![promptandnotes](https://github.com/user-attachments/assets/f42031bd-ef47-4409-a86c-203e5416c446)
